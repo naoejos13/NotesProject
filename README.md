@@ -1,8 +1,11 @@
 # NotesProject
 for oneTeamAnywhere coding test
 
-*After downloading the project, make sure to reload all maven dependencies
-run maven clean and rebuild
+After downloading the project, do the ff:
+1.)make sure to reload all maven dependencies
+2.) run maven clean and rebuild
+3.) On configuration settings, make sure that the working directory is pointing to where you downloaded this project
+
 After doing this, you should be able to run it
 
 Below are the apiEndpoints to use
