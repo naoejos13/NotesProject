@@ -9,9 +9,16 @@ After downloading the project, do the ff:
 After doing this, you should be able to run it
 
 Below are the apiEndpoints to use
-POST http://localhost:8080/notes --this creates note
+POST http://localhost:8080/notes --this creates notes
 GET http://localhost:8080/notes  --get all notes
 GET http://localhost:8080/notes/{id} --get one note 
 PUT http://localhost:8080/notes/{id} --update one note
 DEL http://localhost:8080/notes/{id}  --delete one note 
+
+sample JSON to use in the body when creating notes
+{
+    "title": "Test Note",
+    "body": "This is the test note body"
+}
+
 
